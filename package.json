@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "express": "latest",
+    "pg": "latest",
+    "dotenv": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest",
+    "typescript": "latest",
+    "@types/express": "latest"
+  }
+}
